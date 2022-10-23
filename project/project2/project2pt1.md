@@ -1090,7 +1090,7 @@ This function specification looks like this:
 * The function should match the following behavior:
   * If the number of posts stored in the array is 0 (or less than 0), print `"No posts are stored"`
   * If there are one or more posts matching the given year, print `"Here is a list of posts for year <year input>` followed by each post's content on a new line
-  * If there is no post matching the given year, print `"No posts stored for year <year>"`
+  * If there is no post matching the given year or it is otherwise invalid, print `"No posts stored for year <year>"`
 * The function should not return anything (i.e. the function is **void**)
 * To develop and test in VSCode, use the `readPosts()` function to populate the `posts[]` array before calling the above function.
 
